@@ -75,7 +75,7 @@ class Library
         {
             if ( $val['id'] == $id )
             {
-                $val[$id] = array_merge($val[$id], $data);
+                $val = array_merge($val, $data);
                 $this->_data[$key] = $val;
                 $this->save();
                 return true;
@@ -216,6 +216,7 @@ switch ( $_SERVER['REQUEST_METHOD'] )
         }
         if ( $lib->update($uri[0], $data) )
         {
+var_dump($data); die('Line:' . __LINE__);
             display(201);
         }
         else

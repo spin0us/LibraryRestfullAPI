@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "React - Développez le Front End de vos applications web et mobiles avec JavaScript ",
+      "author": "Sebastien Castiel",
+      "year": 2020,
+      "image": "https://m.media-amazon.com/images/I/41ug1oSO1fL._SX401_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Learning React: A Hands-On Guide to Building Web Applications Using React and Redux",
+      "author": "Kirupa Chinnathambi",
+      "year": 2017,
+      "image": "https://m.media-amazon.com/images/I/51awtSXuNXL._SX218_BO1,204,203,200_QL40_ML2_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "React: Up & Running: Building Web Applications",
+      "author": "Stoyan Stefanov",
+      "year": 2016,
+      "image": "https://productimages.worldofbooks.com/1491931825.jpg"
+    }
+  ]
+  

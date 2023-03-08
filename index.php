@@ -216,7 +216,6 @@ switch ( $_SERVER['REQUEST_METHOD'] )
         }
         if ( $lib->update($uri[0], $data) )
         {
-var_dump($data); die('Line:' . __LINE__);
             display(201);
         }
         else
